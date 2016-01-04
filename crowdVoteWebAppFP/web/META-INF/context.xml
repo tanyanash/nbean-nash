@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/crowdVoteWebAppFP">
+  <Resource auth="Container" driverClassName="org.apache.derby.jdbc.ClientDriver" logAbandoned="true" maxActive="100" maxIdle="30" maxWait="10000" name="jdbc/crowdapplicationDB" password="sesame" removeAbandoned="true" removeAbandonedTimeout="60" type="javax.sql.DataSource" url="jdbc:derby://localhost:1527/crowdapplicationDB" username="root"/>
+  <Resource auth="Container" driverClassName="org.apache.derby.jdbc.ClientDriver" logAbandoned="true" maxActive="100" maxIdle="30" maxWait="10000" name="jdbc/crowdadminDB" password="sesame" removeAbandoned="true" removeAbandonedTimeout="60" type="javax.sql.DataSource" url="jdbc:derby://localhost:1527/crowdadminDB" username="root"/>
+</Context>
